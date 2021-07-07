@@ -1,6 +1,6 @@
 # FizzBuzz
 
-A simple FizzBuzz implementation built with SpringBoot
+A simple FizzBuzz implementation built with SpringBoot and Maven
 
 To build and run: <br>
 ```$ mvn package``` <br>
