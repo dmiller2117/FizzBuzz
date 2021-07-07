@@ -1,5 +1,8 @@
 package com.davidmiller;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class FizzBuzz implements Game {
 
     @Override
@@ -7,7 +10,7 @@ public class FizzBuzz implements Game {
         if (number == 0) {
             return Integer.toString(number);
         }
-        if (isDivisibleBy3(number) && isDivisibleBy5(number)) {
+        if (isDivisibleBy3and5(number)) {
             return "FizzBuzz";
         } else if (isDivisibleBy3(number)) {
             return "Fizz";
@@ -18,12 +21,16 @@ public class FizzBuzz implements Game {
     }
 
     boolean isDivisibleBy3(int number) {
-        if(number == 0) return false;
+        if (number == 0) return false;
         return number % 3 == 0;
     }
 
     boolean isDivisibleBy5(int number) {
-        if(number == 0) return false;
+        if (number == 0) return false;
         return number % 5 == 0;
+    }
+
+    boolean isDivisibleBy3and5(int number) {
+        return isDivisibleBy3(number) && isDivisibleBy5(number);
     }
 }
