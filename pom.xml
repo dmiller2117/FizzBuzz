@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.davidmiller</groupId>
+    <groupId>com.github.dmiller2117</groupId>
     <artifactId>FizzBuzz</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>

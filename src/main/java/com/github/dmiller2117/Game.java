@@ -1,4 +1,4 @@
-package com.davidmiller;
+package com.github.dmiller2117;
 
 public interface Game {
 

@@ -1,4 +1,4 @@
-package com.davidmiller;
+package com.github.dmiller2117;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
